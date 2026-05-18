@@ -6,20 +6,27 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
-  margin: 0;
+
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0px;
 }
 
 .modal {
   background: white;
   width: 480px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap:16px;
+  padding: 10px;
+  padding: 19px;
+
 }
 
 .icon {
@@ -33,6 +40,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -66,4 +74,26 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+.header{
+  font-weight: bold;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  margin-bottom:7px ;
+  justify-content: space-between;
+}
+
+
+.text{
+ 
+  padding-bottom:20px;
+}
+
+.container{
+  
+  gap: 10px;
+  justify-content: space-between;
 }
